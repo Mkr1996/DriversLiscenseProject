@@ -1,0 +1,9 @@
+<app-header></app-header>
+<section class="text-center">
+<h3>Welcome {{'Anusree' | salutation: 'F'}}</h3>
+<h3>{{title}} Report</h3>
+<app-report [courses]="initialCourses" (onRegister)="courseReg($event)"></app-report>
+<div *ngIf="message">{{message}}</div>
+<div>{{message}}</div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,282 @@
+<div class="page-top-offset"></div>
+<div class="row">
+    <div class="container-fluid">
+        <div class="col-md-4 offset-md-4">
+            <div class="form-bg-light">
+              <div class="jumbotron">
+                <h3 class="title">Applicant Registration</h3>
+                <form [formGroup]="submitApplicationForm" (ngSubmit)=" submitApplication()">
+
+                    <div class="form-check">
+                        <h5>Applying For: </h5>
+                        <input class="form-check-input" type="checkbox" formControlName="applicationFor" value="Driverse Liscense" id="dL">
+                        <label class="form-check-label" for="dL">
+                          Drivers Liscense
+                        </label>
+                    </div>
+    
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" formControlName="applicationFor" value="Identification Card" id="iD">
+                        <label class="form-check-label" for="iD">
+                          Identification Card
+                        </label>
+                    </div>
+    
+                    <div class="form-check">
+                        <h5>Select Class:</h5>
+                        <input class="form-check-input" type="radio" formControlName="class" name="class" id="A" value="option1" checked>
+                        <label class="form-check-label" for="A">
+                          A
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" formControlName="class" name="class" id="B" value="option2">
+                        <label class="form-check-label" for="B">
+                          B
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" formControlName="class" name="class" id="C" value="option3">
+                        <label class="form-check-label" for="C">
+                            C
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <h5>Moter Cycle:</h5>
+                        <input class="form-check-input" type="radio" formControlName="motorcycle" id="yes" value="option1" checked>
+                        <label class="form-check-label" for="yes">
+                          Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" formControlName="motorcycle" id="No" value="option2">
+                        <label class="form-check-label" for="no">
+                          No
+                        </label>
+                      </div>
+
+                    <div class="form-group">
+                        <label for="inputType"><h5>Application Type...</h5></label>
+                        <select id="inputType" class="form-control" formControlName="applicaitonType">
+                          <option selected>Original</option>
+                          <option>Renewal</option>
+                          <option>Replacement</option>
+                          <option>Address or Name change</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group w-100 mt-3">
+                        <h5>Applicant Information</h5>
+                        <label for="firstName">First Name</label>
+                        <input type="text" formControlName="firstName" class="form-control" name="firstName" id="firstName">
+                    </div>
+                    
+                    <div class="form-group w-100">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" formControlName="lastName" class="form-control" name="lastName" id="lastName">
+                    </div>
+                    
+                    <div class="form-group w-100">
+                        <label for="middleName">Middle Name</label>
+                        <input type="text" formControlName="middleName" class="form-control" name="middleName" id="middleName">
+                    </div>
+
+                    <div class="form-group w-100">
+                        <label for="bName">Birth Sir Name</label>
+                        <input type="text" formControlName="birthSurName" class="form-control" id="bName">
+                    </div>
+
+                    <div class="form-group w-100">
+                        <label for="SSN">Social Security Number</label>
+                        <input type="text" formControlName="ssn" class="form-control" id="SSN">
+                    </div>
+
+                    <div class="form-group w-100 mt-3">
+                        <label for="dateOfBirth">Date of Birth: </label>
+                        <input type="date" formControlName="dateOfBirth" class="form-control" name="dateOfBirth" id="dateO">
+                    </div>
+            
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" formControlName="sex" id="male" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" formControlName="sex" id="female" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                      </div>
+
+                    <div class="form-group w-100">
+                        <label for="height">Height in Centimeters</label>
+                        <input type="number" formControlName="height" class="form-control" name="height" id="height">
+                    </div>
+
+                    <div class="form-group w-100">
+                        <label for="weight">Weight in Pounds</label>
+                        <input type="number" formControlName="weight" class="form-control" name="weight" id="weight">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="eyeColor">Eye Color</label>
+                        <select id="eyeColo" class="form-control" formControlName="eyeColor">
+                          <option selected>Blue</option>
+                          <option>Brown</option>
+                          <option>Gray</option>
+                          <option>Hazel</option>
+                          <option>Green</option>
+                          <option>Black</option>
+                          <option>Maroon</option>
+                          <option>Pink</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="hairColor">Hair Color</label>
+                        <select id="hairColor" class="form-control" formControlName="hairColor">
+                          <option selected>Black</option>
+                          <option>Red</option>
+                          <option>Gray</option>
+                          <option>Brown</option>
+                          <option>Blonde</option>
+                          <option>Bald</option>
+                          <option>White</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="race">Race</label>
+                        <select id="race" class="form-control" formControlName="race">
+                          <option selected>Alaskan or American Indian</option>
+                          <option>Asian or Pacific Islander</option>
+                          <option>Black</option>
+                          <option>White</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ethnicity">Ethnicity</label>
+                        <select id="ethnicity" class="form-control" formControlName="ethnicity">
+                          <option selected>Hispanic Origin</option>
+                          <option>Not of Hispanic Origin</option>
+                          <option>Unknown</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <h5>Residence Adderss</h5>
+                        <fieldset formGroupName="residentialAddress">
+                        <label for="inputAddress">Street Address 1</label>
+                        <input type="text" class="form-control" id="inputAddress" formControlName="streetAddress1" placeholder="1234 Main St">
+
+                        <label for="inputAddress2">Street Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" formControlName="streetAddress2" placeholder="Apartment, studio, or floor">
+
+                          <label for="inputCity">City</label>
+                          <input type="text" class="form-control" id="inputCity" formControlName="city">
+                     
+
+                          <label for="inputState">State</label>
+                          <select id="inputState" class="form-control" formControlName="state">
+                            <option selected>Alabama</option>
+                            <option >Alaska</option>
+                            <option >Arkansas</option>
+                            <option >Arizona</option>
+                            <option >California</option>
+                            <option >Colorado</option>
+                            <option >Connecticut</option>
+                            <option >Deleware</option>
+                            <option >Florida</option>
+                            <option>Georgia</option>
+                          </select>
+
+                          <label for="inputZip">Zip</label>
+                          <input type="text" class="form-control" formControlName="zip" id="inputZip">
+
+                            <label for="country">Country</label>
+                            <input type="text" class="form-control" formControlName="country" id="country">
+                    </fieldset></div>
+
+                      <div class="form-group">
+                        <h5>Mailing Adderss</h5>
+                        <fieldset formGroupName="residentialAddress">
+                        <label for="inputAddress">Street Address 1</label>
+                        <input type="text" class="form-control" formControlName="streetAddress1" id="inputAddress" placeholder="1234 Main St">
+                    
+                        <label for="inputAddress2">Street Address 2</label>
+                        <input type="text" class="form-control" formControlName="streetAddress2" id="inputAddress2" placeholder="Apartment, studio, or floor">
+
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" formControlName="city" id="inputCity">
+ 
+                          <label for="inputState">State</label>
+                          <select id="inputState" class="form-control" formControlName="state">
+                            <option selected>Alabama</option>
+                            <option >Alaska</option>
+                            <option >Arkansas</option>
+                            <option >Arizona</option>
+                            <option >California</option>
+                            <option >Colorado</option>
+                            <option >Connecticut</option>
+                            <option >Deleware</option>
+                            <option >Florida</option>
+                            <option>Georgia</option>
+                          </select>
+
+                          <label for="inputZip">Zip</label>
+                          <input type="text" class="form-control" formControlName="zip" id="inputZip">
+
+                            <label for="country">Country</label>
+                            <input type="text" class="form-control" formControlName="country" id="country">
+</fieldset>
+                      </div>
+
+                      <div class="form-group w-100">
+                        <label for="phoneNo">Phone Number</label>
+                        <input type="number" formControlName="phoneNo" class="form-control" name="phoneNo" id="phoneNo">
+                    </div>
+
+                    <div class="form-group w-100">
+                      <label for="email">Email Id</label>
+                      <input type="email" formControlName="email" class="form-control" name="email" id="email">
+                  </div>
+                        <div class="form-group">
+                          <h5>Attach Required Documents</h5>
+                          <label for="idProof">Upload Identity Proof (type –JPEG, PNG, PDF only, size less than 1 MB only)</label>
+                          <input type="file" class="form-control-file" id="idProof">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="addressProof">Upload Address Proof (type –JPEG, PNG, PDF only, size less than 1 MB only)</label>
+                          <input type="file" class="form-control-file" id="addressProof">
+                        </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">“I do solemnly swear, affirm, or certify that I am the person named herein and that the statements on this application are true and correct.”</label>
+                        <input type="checkbox">
+                      </div>
+
+                      <div class="form-group w-100">
+                        <label for="sign">Signuature</label>
+                        <input type="text" formControlName="signature" class="form-control" name="signature" id="signature">
+                    </div>
+
+                    <div class="form-group w-100">
+                      <label for="dateOfSignature">Date of Signature</label>
+                      <input type="date" formControlName="dateOfSignature" class="form-control" name="dateOfSignature" id="dateOfSignature">
+                  </div>
+
+                    <div class="card-footer">
+                        <div class="form-group m-0">
+                            <button type="submit" class="btn btn-success mr-3">Submit Application</button>
+                            <button [routerLink]="['/welcome']" routerLinkActive="router-link-active"  type="button" class="btn btn-primary mr-3">Go Back</button>
+                            <button class="btn btn-danger mr-3" type="reset" (click)="errorMessage=null">Reset</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+                <h5 class="success-message">{{successMessage}}</h5>
+                <h5 class="error-message">{{errorMessage}}</h5>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>

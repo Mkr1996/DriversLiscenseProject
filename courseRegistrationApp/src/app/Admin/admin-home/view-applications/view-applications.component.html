@@ -1,0 +1,44 @@
+<div>
+    <div class="text-center table-responsive table-border">
+      <h3 class="title">All Airports</h3>
+  
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th style="text-align: center">Name</th>
+            <th style="text-align: center">Application For</th>
+            <th style="text-align: center">Sex (M/F)</th>
+            <th style="text-align: center">City</th>
+            <th style="text-align: center">State</th>
+            <th style="text-align: center">Operations</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let application of applicationList">
+            <td>{{application.firstName}} {{application.lastName}}</td>
+            <td>{{application.applicationFor}}</td>
+            <td>{{application.sex}}</td>
+            <td>{{application.residentialAddress.city}}</td>
+            <td>{{application.residentialAddress.state}}</td>
+              <button class="btn btn-primary" (click)='deleteApplication(application.applicationId)'>Delete</button>
+              <button class="btn btn-primary" (click)='approveApplication(application.applicationId)'>Approve</button>
+              <button class="btn btn-primary" (click)='getApplication(application.applicationId)'>View</button>
+          </tr>
+        </tbody>
+      </table>
+      <!--Above code is view of deals page. Bellow code idk-->
+      <div *ngIf="successMessage != '' || errorMessage!=''">
+        <div class="text-center text-success">{{successMessage}}</div>
+        <div class="text-center text-danger">{{errorMessage}}</div>
+      </div>
+    </div>
+  
+    <!-- <br><br>
+    <p>Remove Testing dealId: 501001, 501014, 501021, 501022, 501023, 501032, 501037</p>
+    <input type="number" [(ngModel)]="dealId" placeholder="Enter the Deal Id">
+    <br><br>
+    <button class="btn btn-primary" (click)='removeDealForToday(dealId)'>Remove Deal Id {{dealId}}</button> -->
+  
+
+  </div>

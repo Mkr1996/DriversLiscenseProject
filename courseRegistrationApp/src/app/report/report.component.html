@@ -1,0 +1,42 @@
+<!-- Structural directive ngFor -->
+<div class="container-fluid">
+    <div class="row">
+    <div class="offset-sm-2 col-sm-8">
+    <table class="table table-bordered table-striped">
+    <thead>
+    <th class="text-uppercase">course id</th>
+    <th class="text-uppercase">course name</th>
+    <th class="text-uppercase">fee</th>
+    <th class="text-uppercase">start date</th>
+    <th class="text-uppercase">end date</th>
+    <th class="text-uppercase">total seats</th>
+    <th class="text-uppercase">seats booked</th>
+    <th class="text-uppercase">Availability for registration</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let course of courses">
+            <td>{{course.courseId}}</td>
+            <td>{{course.courseName | uppercase}}</td>
+            <td>{{course.registrationFee | currency}}</td>
+            <td>{{course.startDate | date}}</td>
+            <td>{{course.endDate | date: 'medium'}}</td>
+            <td>{{course.totalSeats}}</td>
+            <td>{{course.seatsBooked}}</td>
+            <td>
+            <!-- {{course.totalSeats-course.seatsBooked}} -->
+            <div [ngSwitch]="course.totalSeats-course.seatsBooked">
+            <p *ngSwitchCase="0">Full</p>
+            <p *ngSwitchDefault>
+            {{course.totalSeats-course.seatsBooked}} Available
+            <button (click)="register(course.courseName)">
+            Register
+            </button>
+            </p>
+            </div>
+            </td>
+            </tr>
+    </tbody>
+    </table>
+    </div>
+    </div>
+    </div>

@@ -1,0 +1,359 @@
+2020-07-16 01:26:06.542  WARN 16696 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h25s535ms170µs500ns).
+2020-07-16 09:13:41.579  WARN 16696 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h47m57s668ms956µs300ns).
+2020-07-16 11:23:42.336  WARN 16696 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m29s898ms480µs200ns).
+2020-07-16 12:29:07.267  INFO 16696 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:29:07.282  INFO 16696 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:29:07.302  INFO 16696 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-16 12:29:07.320  INFO 16696 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-16 12:29:08.033  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:29:08.034  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:29:08.960  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:29:08.975  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2020-07-16 12:29:09.079  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:29:09.342  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:29:09.344  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:29:09.345  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:29:09.391  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:29:09.392  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1354 ms
+2020-07-16 12:29:09.504  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-07-16 12:29:09.542  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-07-16 12:29:09.557  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:29:09.589  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:29:09.715  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:29:09.716  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:29:09.717  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:29:09.718  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:29:10.363  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:29:10.741  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:29:10.905  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:29:11.184  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:29:11.199  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:29:11.487  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:29:11.489  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:29:11.503  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:29:11.764  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:29:11.766  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 3.807 seconds (JVM running for 51656.367)
+2020-07-16 12:29:11.771  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:31:14.034  INFO 16696 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:31:14.044  INFO 16696 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:31:14.046  INFO 16696 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-07-16 12:31:14.060  INFO 16696 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-07-16 12:31:14.519  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:31:14.519  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:31:15.165  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:31:15.175  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-07-16 12:31:15.294  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:31:15.533  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:31:15.536  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:31:15.537  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:31:15.578  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:31:15.579  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1057 ms
+2020-07-16 12:31:15.669  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-07-16 12:31:15.705  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-07-16 12:31:15.717  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:31:15.741  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:31:15.769  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:31:15.769  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:31:15.770  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:31:15.770  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:31:15.989  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:31:16.353  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:31:16.500  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:31:16.634  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:31:16.646  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:31:16.863  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:31:16.864  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:31:16.870  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:31:16.996  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:31:17.007  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 2.53 seconds (JVM running for 51781.608)
+2020-07-16 12:31:17.007  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:32:44.046  INFO 16696 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:32:44.055  INFO 16696 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:32:44.057  INFO 16696 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-07-16 12:32:44.068  INFO 16696 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-07-16 12:32:44.553  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:32:44.554  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:32:45.225  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:32:45.244  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2020-07-16 12:32:45.418  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:32:45.710  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:32:45.714  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:32:45.715  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:32:45.746  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:32:45.747  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1188 ms
+2020-07-16 12:32:45.836  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-07-16 12:32:45.871  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-07-16 12:32:45.886  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:32:45.908  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:32:45.935  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:32:45.936  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:32:45.937  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:32:45.938  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:32:46.174  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:32:46.602  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:32:46.698  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:32:46.817  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:32:46.827  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:32:46.991  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:32:46.993  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:32:47.000  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:32:47.130  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:32:47.131  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 2.622 seconds (JVM running for 51871.732)
+2020-07-16 12:32:47.135  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:34:48.604  INFO 16696 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:34:48.613  INFO 16696 --- [Thread-34] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:34:48.615  INFO 16696 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-07-16 12:34:48.628  INFO 16696 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-07-16 12:34:49.040  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:34:49.041  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:34:49.568  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:34:49.578  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-07-16 12:34:49.666  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:34:49.918  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:34:49.918  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:34:49.918  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:34:49.957  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:34:49.957  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 913 ms
+2020-07-16 12:34:50.019  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-07-16 12:34:50.057  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-07-16 12:34:50.073  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:34:50.104  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:34:50.135  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:34:50.135  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:34:50.135  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:34:50.135  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:34:50.324  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:34:50.617  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:34:50.708  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:34:50.840  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:34:50.850  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:34:51.005  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:34:51.006  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:34:51.011  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:34:51.124  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:34:51.126  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 2.122 seconds (JVM running for 51995.727)
+2020-07-16 12:34:51.129  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:48:43.724  INFO 16696 --- [Thread-41] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:48:43.734  INFO 16696 --- [Thread-41] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:48:43.735  INFO 16696 --- [Thread-41] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-07-16 12:48:43.752  INFO 16696 --- [Thread-41] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-07-16 12:48:44.205  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:48:44.206  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:48:44.715  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:48:44.724  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-07-16 12:48:44.791  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:48:45.021  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:48:45.023  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:48:45.024  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:48:45.050  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:48:45.051  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 841 ms
+2020-07-16 12:48:45.121  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-07-16 12:48:45.159  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-07-16 12:48:45.169  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:48:45.188  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:48:45.209  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:48:45.210  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:48:45.210  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:48:45.211  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:48:45.348  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:48:45.669  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:48:45.749  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:48:45.890  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:48:45.904  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:48:46.073  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:48:46.074  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:48:46.080  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:48:46.218  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:48:46.220  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 2.053 seconds (JVM running for 52830.821)
+2020-07-16 12:48:46.224  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:49:27.917  INFO 16696 --- [http-nio-3335-exec-1] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-16 12:49:27.918  INFO 16696 --- [http-nio-3335-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-16 12:49:27.926  INFO 16696 --- [http-nio-3335-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-07-16 12:49:27.954  INFO 16696 --- [http-nio-3335-exec-2] com.infy.driversLiscense.api.adminAPI    : ADMIN TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: harry@infosys.com
+2020-07-16 12:49:27.973  INFO 16696 --- [http-nio-3335-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-07-16 12:49:28.017  WARN 16696 --- [http-nio-3335-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 904, SQLState: 42000
+2020-07-16 12:49:28.018 ERROR 16696 --- [http-nio-3335-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : ORA-00904: "ADDRESSENT0_"."ADMIN_EMAIL_ID": invalid identifier
+
+2020-07-16 12:49:28.025  WARN 16696 --- [http-nio-3335-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED]
+2020-07-16 12:49:29.074  INFO 16696 --- [http-nio-3335-exec-3] com.infy.driversLiscense.api.adminAPI    : ADMIN TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: harry@infosys.com
+2020-07-16 12:49:29.086  WARN 16696 --- [http-nio-3335-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 904, SQLState: 42000
+2020-07-16 12:49:29.086 ERROR 16696 --- [http-nio-3335-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : ORA-00904: "ADDRESSENT0_"."ADMIN_EMAIL_ID": invalid identifier
+
+2020-07-16 12:49:29.088  WARN 16696 --- [http-nio-3335-exec-3] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED]
+2020-07-16 12:50:04.246  INFO 16696 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:50:04.255  INFO 16696 --- [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:50:04.256  INFO 16696 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-07-16 12:50:04.269  INFO 16696 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-07-16 12:50:04.666  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:50:04.667  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:50:05.055  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:50:05.072  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-07-16 12:50:05.127  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:50:05.306  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:50:05.308  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:50:05.309  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:50:05.337  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:50:05.338  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 669 ms
+2020-07-16 12:50:05.396  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-07-16 12:50:05.429  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-07-16 12:50:05.438  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:50:05.461  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:50:05.482  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:50:05.483  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:50:05.483  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:50:05.483  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:50:05.604  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:50:05.819  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:50:05.899  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:50:06.002  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:50:06.011  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:50:06.151  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:50:06.153  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:50:06.158  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:50:06.260  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:50:06.262  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 1.626 seconds (JVM running for 52910.863)
+2020-07-16 12:50:06.266  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:50:13.614  INFO 16696 --- [Thread-57] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:50:13.614  INFO 16696 --- [Thread-57] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:50:13.614  INFO 16696 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-07-16 12:50:13.630  INFO 16696 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-07-16 12:50:14.142  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:50:14.142  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:50:14.619  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:50:14.630  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-07-16 12:50:14.701  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:50:14.884  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:50:14.886  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:50:14.886  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:50:14.915  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:50:14.916  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 771 ms
+2020-07-16 12:50:14.979  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2020-07-16 12:50:15.007  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2020-07-16 12:50:15.016  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:50:15.034  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:50:15.054  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:50:15.055  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:50:15.055  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:50:15.056  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:50:15.184  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:50:15.447  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:50:15.517  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:50:15.617  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:50:15.633  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:50:15.786  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:50:15.788  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:50:15.795  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:50:15.895  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:50:15.898  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 1.793 seconds (JVM running for 52920.498)
+2020-07-16 12:50:15.900  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:50:51.182  INFO 16696 --- [http-nio-3335-exec-1] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-16 12:50:51.183  INFO 16696 --- [http-nio-3335-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-16 12:50:51.189  INFO 16696 --- [http-nio-3335-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-16 12:50:51.202  INFO 16696 --- [http-nio-3335-exec-1] com.infy.driversLiscense.api.adminAPI    : ADMIN TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: tom@infosys.com
+2020-07-16 12:50:51.222  INFO 16696 --- [http-nio-3335-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-07-16 12:50:51.237  WARN 16696 --- [http-nio-3335-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 904, SQLState: 42000
+2020-07-16 12:50:51.237 ERROR 16696 --- [http-nio-3335-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : ORA-00904: "ADDRESSENT0_"."ADMIN_EMAIL_ID": invalid identifier
+
+2020-07-16 12:50:51.239  WARN 16696 --- [http-nio-3335-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED]
+2020-07-16 12:50:51.997  INFO 16696 --- [http-nio-3335-exec-2] com.infy.driversLiscense.api.adminAPI    : ADMIN TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: tom@infosys.com
+2020-07-16 12:50:52.007  WARN 16696 --- [http-nio-3335-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 904, SQLState: 42000
+2020-07-16 12:50:52.007 ERROR 16696 --- [http-nio-3335-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : ORA-00904: "ADDRESSENT0_"."ADMIN_EMAIL_ID": invalid identifier
+
+2020-07-16 12:50:52.009  WARN 16696 --- [http-nio-3335-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED]
+2020-07-16 12:53:13.793  INFO 16696 --- [Thread-64] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:53:13.793  INFO 16696 --- [Thread-64] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:53:13.793  INFO 16696 --- [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2020-07-16 12:53:13.808  INFO 16696 --- [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2020-07-16 12:53:14.285  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:53:14.286  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:53:14.674  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:53:14.689  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2020-07-16 12:53:14.743  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:53:14.933  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:53:14.935  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:53:14.935  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:53:14.959  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:53:14.959  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 671 ms
+2020-07-16 12:53:15.017  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2020-07-16 12:53:15.046  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2020-07-16 12:53:15.064  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:53:15.080  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:53:15.099  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:53:15.100  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:53:15.100  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:53:15.101  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:53:15.209  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:53:15.457  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:53:15.541  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:53:15.661  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:53:15.671  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:53:15.842  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:53:15.844  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:53:15.850  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:53:15.987  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:53:15.989  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 1.733 seconds (JVM running for 53100.59)
+2020-07-16 12:53:15.992  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 12:54:00.662  INFO 16696 --- [Thread-73] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:54:00.662  INFO 16696 --- [Thread-73] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:54:00.662  INFO 16696 --- [Thread-73] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2020-07-16 12:54:00.678  INFO 16696 --- [Thread-73] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2020-07-16 12:54:01.167  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Starting DriversLiscenseApplication on USABOS287408L with PID 16696 (D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject\target\classes started by manoj.khatri in D:\SpringEclipse\SpringBootEclipse\DriversLiscenseProject)
+2020-07-16 12:54:01.167  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : No active profile set, falling back to default profiles: default
+2020-07-16 12:54:01.514  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-16 12:54:01.521  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-07-16 12:54:01.577  INFO 16696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1a5f3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 12:54:01.737  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3335 (http)
+2020-07-16 12:54:01.739  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 12:54:01.740  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-07-16 12:54:01.764  INFO 16696 --- [restartedMain] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring embedded WebApplicationContext
+2020-07-16 12:54:01.764  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 594 ms
+2020-07-16 12:54:01.817  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2020-07-16 12:54:01.846  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2020-07-16 12:54:01.855  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-16 12:54:01.869  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2020-07-16 12:54:01.889  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:54:01.890  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@297b03f
+2020-07-16 12:54:01.890  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:54:01.890  INFO 16696 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@b4b43497
+2020-07-16 12:54:02.006  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 12:54:02.223  WARN 16696 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 12:54:02.292  INFO 16696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-16 12:54:02.373  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 12:54:02.381  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-16 12:54:02.498  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-16 12:54:02.500  INFO 16696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-16 12:54:02.506  INFO 16696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-16 12:54:02.623  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3335 (http) with context path '/driversLiscense_Server'
+2020-07-16 12:54:02.624  INFO 16696 --- [restartedMain] c.i.d.DriversLiscenseApplication         : Started DriversLiscenseApplication in 1.488 seconds (JVM running for 53147.225)
+2020-07-16 12:54:02.627  INFO 16696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-16 14:02:52.068  INFO 16696 --- [http-nio-3335-exec-1] o.a.c.c.C.[.[.[/driversLiscense_Server]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-16 14:02:52.069  INFO 16696 --- [http-nio-3335-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-16 14:02:52.073  INFO 16696 --- [http-nio-3335-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-07-16 14:02:52.092  INFO 16696 --- [http-nio-3335-exec-1] com.infy.driversLiscense.api.adminAPI    : ADMIN TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: tom@infosys.com
+2020-07-16 14:02:52.107  INFO 16696 --- [http-nio-3335-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-07-16 14:02:52.128  WARN 16696 --- [http-nio-3335-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED "Email id or password is incorrect."]
+2020-07-16 14:02:53.348  INFO 16696 --- [http-nio-3335-exec-2] com.infy.driversLiscense.api.adminAPI    : ADMIN TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: tom@infosys.com
+2020-07-16 14:02:53.355  WARN 16696 --- [http-nio-3335-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED "Email id or password is incorrect."]
+2020-07-16 14:02:55.577  INFO 16696 --- [http-nio-3335-exec-3] com.infy.driversLiscense.api.adminAPI    : ADMIN TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: tom@infosys.com
+2020-07-16 14:02:55.591  WARN 16696 --- [http-nio-3335-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 904, SQLState: 42000
+2020-07-16 14:02:55.591 ERROR 16696 --- [http-nio-3335-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : ORA-00904: "ADDRESSENT0_"."ADMIN_EMAIL_ID": invalid identifier
+
+2020-07-16 14:02:55.593  WARN 16696 --- [http-nio-3335-exec-3] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED]
